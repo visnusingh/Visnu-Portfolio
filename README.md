@@ -40,27 +40,19 @@ A fast, accessible personal site showcasing my projects and experience. Built as
 
 ---
 
-## 📸 Screenshots
-
-> Replace these with your own images (drag into GitHub and paste links).
-
-| Desktop | Mobile |
-| --- | --- |
-| ![desktop screenshot](https://via.placeholder.com/1200x700?text=Desktop+Screenshot) | ![mobile screenshot](https://via.placeholder.com/360x720?text=Mobile+Screenshot) |
-
----
 
 ## 📦 Project Structure
 
+```text
 visnu-portfolio/
 ├─ public/
-│ ├─ assets/
-│ │ └─ visnu.png
-│ ├─ resume/
-│ │ └─ Visnu_Singh_Resume.pdf
-│ ├─ index.html
-│ ├─ styles.css
-│ └─ app.js
+│  ├─ assets/
+│  │  └─ visnu.png
+│  ├─ resume/
+│  │  └─ Visnu_Singh_Resume.pdf
+│  ├─ index.html
+│  ├─ styles.css
+│  └─ app.js
 ├─ firebase.json
 └─ README.md
 
@@ -90,3 +82,22 @@ firebase use visnu-portfolio   # or your project id
 
 # deploy only hosting
 firebase deploy --only hosting
+
+Accessibility & Perf Notes
+Uses system fonts + Inter for crisp text.
+Reasonable color contrast; buttons use white text.
+Avoids heavy libraries to keep TTI low.
+🗺️ Roadmap
+ Add light mode toggle
+ Project detail pages with more screenshots
+ Contact form with email (optional; currently mailto)
+📝 License
+This repository is licensed under the MIT License.
+You’re free to reuse the structure and styles; please keep attribution.
+👋 Contact
+Portfolio: https://visnusingh.com
+LinkedIn: https://www.linkedin.com/in/visnusingh370
+GitHub: https://github.com/visnusingh
+Email: visnusingh370@gmail.com
+
+
